@@ -1,5 +1,5 @@
 import sqlite3 as sql
-from stringSQL import (comandoSQL, )
+from schema import (comandoSQL, )
 import os
 
 def acessarBanco (sql: str, *variaveis):
