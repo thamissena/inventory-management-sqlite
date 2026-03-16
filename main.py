@@ -1,4 +1,4 @@
-from estoquefuncoes import (cadVendas, cadProdutos, abrirBanco, criarTabelas, limparTela)
+from db_operations import (cadVendas, cadProdutos, abrirBanco, criarTabelas, limparTela)
 
 criarTabelas(abrirBanco())
 
